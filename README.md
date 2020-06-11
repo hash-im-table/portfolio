@@ -1,10 +1,15 @@
-# My (WIP) portfolio
+# My (on-going) portfolio
+# Building my own collision detection system. 
 
-AABB
+
+Unity Engine is great for 3D games and its inbuilt physics system is well optimized for player and enemy behaviour. However, for 2D games, the inbuilt Rigidbody2D can create unpredictable behaviour. Also, another issue created for 2D games with the inbuilt Rigidbody2D system, is the ‘float-y’ gravity it creates. The physics system is designed to replicate real world physics, which is not what you want for, say, a 2D platformer. 
+
+Instead, I have been learning and experimenting with building me own collision detection and raycasting system. Below is an example of my implementation:
+Here is the code:
 
 ![CollisionDetectionTest](https://user-images.githubusercontent.com/66776230/84371494-a308d100-abd1-11ea-8479-d00a94a477e9.gif)
 
-public LayerMask collisionMask;
+    public LayerMask collisionMask;
  
     const float skinWidth = .015f;
     public int horizontalRayCount = 4;
@@ -128,4 +133,12 @@ public LayerMask collisionMask;
         }
     }
 
+Also, I began tinkering with the above code to see other use cases. By using the code above to determine the bounds of a rectangular platform, I can essentially map a patrolling enemy around its extremities without the need to constantly set and re-set waypoints. Here is what that looked like: 
 
+![PatorllingEnemy](https://user-images.githubusercontent.com/66776230/84375124-faf60680-abd6-11ea-9a83-a6e3c67beefe.gif)
+
+I also wanted to try and repurpose my code again for a top down game, again leveraging the collision detection system I built earlier. Below is what that looks like!
+
+![WIP1](https://user-images.githubusercontent.com/66776230/84375535-9d15ee80-abd7-11ea-9298-6ddc3e77166f.gif)
+
+(Ignore the pink colour palate, I was trying to impress my little cousin. It didn’t work…)
