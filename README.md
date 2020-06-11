@@ -1,4 +1,4 @@
-# My (on-going) portfolio
+# My (WIP) portfolio
 # Building my own collision detection system. 
 
 
