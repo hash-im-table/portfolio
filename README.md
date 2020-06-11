@@ -139,6 +139,10 @@ I began tinkering with the above code to see other use cases for it. By using th
 
 ![PatorllingEnemy](https://user-images.githubusercontent.com/66776230/84375124-faf60680-abd6-11ea-9a83-a6e3c67beefe.gif)
 
+Thats whats going on under the hood. If you overlay it with some fancy assets and tinker with the speed variable, this is what it would look like:
+
+![showcase](https://user-images.githubusercontent.com/66776230/84427828-72e71f80-ac1d-11ea-819b-480c2453a050.gif)
+
 I also wanted to try and repurpose my code again for a top down game, again leveraging the collision detection system I built earlier. 
 
 Below is what that looks like!
