@@ -146,3 +146,10 @@ Below is what that looks like!
 ![WIP1](https://user-images.githubusercontent.com/66776230/84375535-9d15ee80-abd7-11ea-9298-6ddc3e77166f.gif)
 
 (Ignore the pink colour palate, I was trying to impress my little cousin. It didn’t work…)
+
+Update: 
+
+I have also started looking into enemy behaviour: 
+
+![Bowser](https://user-images.githubusercontent.com/66776230/84420013-55ac5400-ac11-11ea-8a55-a651874af659.gif)
+
