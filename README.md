@@ -1,5 +1,5 @@
 # My (WIP) Portfolio
-# Building my own collision detection system. 
+## Building my own collision detection system. 
 
 
 The Unity Engine is great for 3D games and its inbuilt physics system is well optimized for player & enemy behaviour. However, for 2D games, the behaviour becomes unpredictable. The Unity physics system is designed to replicate real world physics, which is not what you want for, say, a 2D platformer. Another issue this creates for 2D games is ‘float-y’ in-game gravity.
@@ -159,4 +159,4 @@ The green pizza like slice represents what Bowser can see. Anything in that segm
 
 # Upcoming Projects
 
-## nff
+* Using above components to build a Mario Bros clone
