@@ -3,11 +3,11 @@ This WIP portfolio is a place for me to showcase my Game Development experiments
 
 Contents | 
 ------------ |
-Collision detection system |
-Enemy Platform Tracing | 
-Top-Down Collision Detection |
-Complex Enemy Behaviour |
-Project Tracker |
+### Collision detection system |
+## Enemy Platform Tracing | 
+## Top-Down Collision Detection |
+### Complex Enemy Behaviour |
+### Project Tracker |
 
 
 ## My Unity Experiments
