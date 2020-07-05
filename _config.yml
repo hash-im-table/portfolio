@@ -2,9 +2,7 @@ title: Welcome to my (WIP) Portfolio
 description: A home for all my tinkering and experiments! 
 
 theme: jekyll-theme-cayman
-
-toc.js 
-markdown: kramdown
+markdown: kramdown, toc.js
 
 
 github:
