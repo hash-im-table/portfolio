@@ -1,6 +1,5 @@
-# What is this portfolio?
+# The Purpose of this Portfolio
 This WIP portfolio is a place for me to showcase my Game Development experiments in Unity, Unreal and Blender. The portfolio, is very much a WIP and will be updated regularly!
-
 
 Table of contents
 =================
@@ -20,7 +19,7 @@ Table of contents
 # Unity Experiments
 ## Building my own collision detection system. 
 
-The Unity engine is great for 3D games, the inbuilt Rigidbody physics system is well optimized for 3D player & enemy behaviour. However, for 2D games, the RigidBody2D system creates more sporatic and unpredicatable behaviour when interatcting with other physics gameobjects. The 2D Unity physics system is designed to replicate real world physics, which is not what you want for a 2D game. Another issue with the RigidBody2D system as a means of collision detection and movement, is that it creates this ‘float-y’ in-game gravity which for most games is an undesired feel.
+The Unity engine is great for 3D games, the inbuilt Rigidbody physics system is well optimized for 3D player & enemy behaviour. However, for 2D games, the RigidBody2D system creates more sporadic and unpredictable behaviour when interacting with other physics gameobjects. The 2D Unity physics system is designed to replicate real world physics, which is not what you want for a 2D game. Another issue with the RigidBody2D system as a means of collision detection and movement, is that it creates this ‘float-y’ in-game gravity which for most games is an undesired feel.
 
 To work around this I have been experimenting with building me own collision detection and raycasting system. Below is an example of my implementation:
 
@@ -163,7 +162,7 @@ I began tinkering with the above code to see other use cases for it. By using th
 <img src="https://user-images.githubusercontent.com/66776230/84375124-faf60680-abd6-11ea-9a83-a6e3c67beefe.gif"/>
 </p>
 
-Thats whats going on under the hood. If you overlay it with some fancy assets and tinker with the speed variable, this is what it would look like:
+That’s what’s going on under the hood. If you overlay it with some fancy assets and tinker with the speed variable, this is what it would look like:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/66776230/84427828-72e71f80-ac1d-11ea-819b-480c2453a050.gif"/>
