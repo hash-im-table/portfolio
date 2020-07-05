@@ -180,6 +180,7 @@ Below is what that looks like!
 </p> *(Ignore the pink colour palate, I was trying to impress my little cousin. It didn’t work…)*
 
 ### The Algorithm
+WIP
 
 ## Complex Enemy Behaviour
 
