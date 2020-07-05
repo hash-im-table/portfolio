@@ -19,7 +19,13 @@ Table of contents
 # Unity Experiments
 ## Building my own collision detection system. 
 
-The Unity engine is great for 3D games, the inbuilt Rigidbody physics system is well optimized for 3D player & enemy behaviour. However, for 2D games, the RigidBody2D system creates more sporadic and unpredictable behaviour when interacting with other physics gameobjects. The 2D Unity physics system is designed to replicate real world physics, which is not what you want for a 2D game. Another issue with the RigidBody2D system as a means of collision detection and movement, is that it creates this ‘float-y’ in-game gravity which for most games is an undesired feel.
+The Unity engine is great for 3D games, the inbuilt Rigidbody physics system is well optimized for 3D player & enemy behaviour. However, for 2D games, the RigidBody2D system creates more sporadic and unpredictable behaviour when interacting with other physics gameobjects. The 2D Unity physics system is designed to replicate real world physics, which is not what you want for a 2D game. 
+
+Another issue with the RigidBody2D system as a means of collision detection and movement, is that it creates this ‘float-y’ in-game gravity which for most games is an undesired feel. This is an example of that float-y, imprecise movement moving the player via a RigidBody2D can create.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/66776230/86543782-87b38c00-bf19-11ea-8526-9ccf90760feb.gif" width="500" height="500"/>
+</p>
 
 To work around this I have been experimenting with building me own collision detection and raycasting system. Below is an example of my implementation:
 
