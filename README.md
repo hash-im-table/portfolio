@@ -16,6 +16,21 @@ To work around this I have been experimenting with building me own collision det
 
 ![CollisionDetectionTest](https://user-images.githubusercontent.com/66776230/84371494-a308d100-abd1-11ea-8479-d00a94a477e9.gif)
 
+
+```c#
+public class Order
+{
+    public int OrderId { get; set; }
+    public int CustomerId { get; set; }
+
+    public List<int> Products { get; set; }
+}
+\```
+
+</p>
+</details>  
+
+
 # Here is the code:
 <details>
   <summary>Click to expand!</summary>
@@ -138,7 +153,10 @@ To work around this I have been experimenting with building me own collision det
             left = right = false;
         }
     }
-```</details>
+\```
+
+</p>
+</details>  
 
 
 
