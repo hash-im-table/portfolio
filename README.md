@@ -172,3 +172,4 @@ The green pizza like slice represents what Bowser can see. Anything in that segm
 # Project Tracker
 - [x] Building my own collision detection system. 
 - [ ] Build a few Blender models
+- [ ] A* pathfinding Alogorithm 
