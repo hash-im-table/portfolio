@@ -1,13 +1,22 @@
 # What is this portfolio?
 This WIP portfolio is a place for me to showcase my Game Development experiments in Unity, Unreal and Blender. The portfolio, is very much a WIP and will be updated regularly!
 
-Contents | 
------------- |
-Collision detection system |
-Enemy Platform Tracing | 
-Top-Down Collision Detection |
-Complex Enemy Behaviour |
-Project Tracker |
+
+Table of contents
+=================
+
+<!--ts-->
+
+   * [Installation](#installation)
+   * [Usage](#usage)
+      * [STDIN](#stdin)
+      
+<!--te-->
+
+
+Installation
+============
+
 
 ## My Unity Experiments
 
