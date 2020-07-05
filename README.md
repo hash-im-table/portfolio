@@ -2,8 +2,6 @@
 This (under-construction) portfolio is a place for me to showcase my Game Development experiments in Unity, Unreal and Blender. The portfolio, is very much a WIP and will be updated regularly!
 
 ## Table of contents
-=================
-
 <!--ts-->
   * [Unity Experiments](#unity-experiments)
     * [Building my own collision detection system](#building-my-own-collision-detection-system)
