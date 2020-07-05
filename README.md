@@ -21,6 +21,7 @@ To work around this I have been experimenting with building me own collision det
 <details>
   <summary>Click to expand!</summary>
 ```c#
+    
     public LayerMask collisionMask;
  
     const float skinWidth = .015f;
@@ -139,7 +140,7 @@ To work around this I have been experimenting with building me own collision det
             left = right = false;
         }
     }
-\```
+```\
 
 </p>
 </details>  
