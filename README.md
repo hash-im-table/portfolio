@@ -1,5 +1,5 @@
 # What is this portfolio?
-This WIP portfolio is just a place for me to showcase my experiments with Unity, Unreal and some 3D modelling work with Blender. The portfolio, is very much a WIP and will be updated regularly!
+This WIP portfolio is just a place for me to showcase my experiments with Unity, Unreal and Blender. The portfolio, is very much a WIP and will be updated regularly!
 
 
 ## Unity Engine Experiments
