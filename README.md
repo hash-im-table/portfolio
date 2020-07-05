@@ -28,7 +28,8 @@ To work around this I have been experimenting with building me own collision det
 {::options parse_block_html="true" /}
 
 <details><summary markdown="span">Let's see some code!</summary>
-```c#
+    
+    ```c#
     public LayerMask collisionMask;
  
     const float skinWidth = .015f;
@@ -147,9 +148,9 @@ To work around this I have been experimenting with building me own collision det
             left = right = false;
         }
     }
-```
-</details>
-<br/>
+    ```
+    </details>
+    <br/>
 
 {::options parse_block_html="false" /}
 
