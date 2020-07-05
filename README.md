@@ -182,7 +182,7 @@ I have also started looking into enemy behaviour:
 The green pizza like slice represents what Bowser can see. Anything in that segment will alert Bowser. The radius and angle of the slice is are variable values. 
 
 <p align="center">
-![Bowser](https://user-images.githubusercontent.com/66776230/84420013-55ac5400-ac11-11ea-8a55-a651874af659.gif)
+<img src="https://user-images.githubusercontent.com/66776230/84420013-55ac5400-ac11-11ea-8a55-a651874af659.gif"/>
 </p>
 
 # Project Tracker
