@@ -19,7 +19,8 @@ To work around this I have been experimenting with building me own collision det
 
 #### Here is the code:
 <details>
-  <summary>Click to expand!</summary>
+<summary> Click to Expand </summary>
+<p>
     
     ```c#
     public LayerMask collisionMask;
