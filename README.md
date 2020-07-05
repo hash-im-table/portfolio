@@ -8,10 +8,10 @@ Table of contents
 <!--ts-->
    * [Unity](#unity-experiments)
       * [Building my own collision detection system](#Building-my-own-collision-detection-system)
-      * [Enemy Platform Tracing](#Building-my-own-collision-detection-system)
-      * [Top-Down Collision Detection](#Building-my-own-collision-detection-system)
-      * [Complex Enemy Behaviour](#Building-my-own-collision-detection-system)
-      * [Project Tracker](#Project-Tracker)
+      * [Enemy Platform Tracing](#Enemy-Platform-Tracing)
+      * [Top-Down Collision Detection](#Top-Down-Collision-Detection)
+      * [Complex Enemy Behaviour](#Complex-Enemy-Behaviour)
+   * [Project Tracker](#Project-Tracker)
 <!--te-->
 
 ## Unity Experiments
