@@ -3,7 +3,7 @@ This (under-construction) portfolio is a place for me to showcase my Game Develo
 
 ## Table of contents
 <!--ts-->
-{:toc}
+* TOC {:toc}
   * [Unity Experiments](#unity-experiments)
     * [Building my own collision detection system](#building-my-own-collision-detection-system)
       * [AABB Code](#aabb-Code)
