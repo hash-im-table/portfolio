@@ -17,8 +17,8 @@ Table of contents
   
 <!--te-->
 
-# Unity Experiments
-## Building my own collision detection system. 
+## Unity Experiments
+### Building my own collision detection system. 
 
 The Unity engine is great for 3D games, the inbuilt Rigidbody physics system is well optimized for 3D player & enemy behaviour. However, for 2D games, the RigidBody2D system creates more sporadic and unpredictable behaviour when interacting with other physics gameobjects. The 2D Unity physics system is designed to replicate real world physics, which is not what you want for a 2D game. 
 
@@ -35,7 +35,7 @@ To work around this I have been experimenting with building me own collision det
 </p>
 
     
-### AABB Code
+#### AABB Code
 
 >“Talk is cheap. Show me the code.”
 >
@@ -162,7 +162,7 @@ To work around this I have been experimenting with building me own collision det
     }
 ```
 
-## Enemy Platform Tracing
+### Enemy Platform Tracing
 
 I began tinkering with the above code to see other use cases for it. By using the code above to determine the bounds of a rectangular platform, I can essentially map a patrolling enemy around its extremities without the need to constantly set and re-set multiple waypoints. Here is what that looked like: 
 
@@ -176,7 +176,7 @@ That’s what’s going on under the hood. If you overlay it with some fancy ass
 <img src="https://user-images.githubusercontent.com/66776230/84427828-72e71f80-ac1d-11ea-819b-480c2453a050.gif"/>
 </p>
 
-## Top-Down Collision Detection
+### Top-Down Collision Detection
 
 I also wanted to try and repurpose my code again for a top-down game, again leveraging the collision detection system I built earlier. This time I also added enemies that could pathfind using the A* algorithm
 
@@ -187,10 +187,10 @@ Below is what that looks like!
 </p> 
 <p align="center">*(Ignore the pink colour palate, I was trying to impress my little cousin. It didn’t work…)*</p> 
 
-###  Explaining the Algorithm Breakdown
+####  Explaining the Algorithm Breakdown
 WIP
 
-## Complex Enemy Behaviour
+### Complex Enemy Behaviour
 
 I have also started looking into enemy behaviour: 
 
@@ -200,10 +200,10 @@ The green pizza like slice represents what Bowser can see. Anything in that segm
 <img src="https://user-images.githubusercontent.com/66776230/84420013-55ac5400-ac11-11ea-8a55-a651874af659.gif"/>
 </p>
 
-# Blender
+## Blender
 WIP
 
-# Project Tracker
+## Project Tracker
 - [x]  Building my own collision detection system. 
 - [ ]  Build a few Blender models
 - [ ]  A* pathfinding Alogorithm 
