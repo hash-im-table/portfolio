@@ -6,7 +6,7 @@ Table of contents
 
 <!--ts-->
   * [Unity Experiments](#unity-experiments)
-    * [Building my own collision detection system](#building my own collision detection system. )
+    * [Building my own collision detection system](#building-my-own-collision-detection-system.)
       * [AABB Code](#aabb-Code)
     * [Enemy Platform Tracing](#Enemy-Platform-Tracing)
     * [Top-Down Collision Detection](#Top-Down-Collision-Detection)
