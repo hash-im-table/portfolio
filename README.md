@@ -6,19 +6,15 @@ Table of contents
 =================
 
 <!--ts-->
-   * [Installation](#installation)
    * [Unity](#unity-experiments)
-      * [My Unity Experiments](#myunityexperiments)
+      * [Building my own collision detection system](#Building-my-own-collision-detection-system)
+      * [Enemy Platform Tracing](#Building-my-own-collision-detection-system)
+      * [Top-Down Collision Detection](#Building-my-own-collision-detection-system)
+      * [Complex Enemy Behaviour](#Building-my-own-collision-detection-system)
+      * [Project Tracker](#Project-Tracker)
 <!--te-->
 
-
-Installation
-============
-
-
 ## Unity Experiments
-
-
 ### Building my own collision detection system. 
 
 The Unity engine is great for 3D games, the inbuilt Rigidbody physics system is well optimized for 3D player & enemy behaviour. However, for 2D games, the RigidBody2D system creates more sporatic and unpredicatable behaviour when interatcting with other physics gameobjects. The 2D Unity physics system is designed to replicate real world physics, which is not what you want for a 2D game. Another issue with the RigidBody2D system as a means of collision detection and movement, is that it creates this ‘float-y’ in-game gravity which for most games is an undesired feel.
