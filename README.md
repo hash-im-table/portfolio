@@ -18,7 +18,7 @@ The Unity engine is great for 3D games, the inbuilt Rigidbody physics system is 
 
 To work around this I have been experimenting with building me own collision detection and raycasting system. Below is an example of my implementation:
 
-![CollisionDetectionTest](https://user-images.githubusercontent.com/66776230/84371494-a308d100-abd1-11ea-8479-d00a94a477e9.gif)
+![CollisionDetectionTest](https://user-images.githubusercontent.com/66776230/84371494-a308d100-abd1-11ea-8479-d00a94a477e9.gif  =250x250)
 
 ```c#
     public LayerMask collisionMask;
