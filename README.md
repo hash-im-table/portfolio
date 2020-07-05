@@ -25,7 +25,9 @@ To work around this I have been experimenting with building me own collision det
 <img src="https://user-images.githubusercontent.com/66776230/84371494-a308d100-abd1-11ea-8479-d00a94a477e9.gif" width="500" height="500"/>
 </p>
 
+{::options parse_block_html="true" /}
 
+<details><summary markdown="span">Let's see some code!</summary>
 ```c#
     public LayerMask collisionMask;
  
@@ -146,6 +148,10 @@ To work around this I have been experimenting with building me own collision det
         }
     }
 ```
+</details>
+<br/>
+
+{::options parse_block_html="false" /}
 
 ### Enemy Platform Tracing
 
