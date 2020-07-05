@@ -1,10 +1,12 @@
 # What is this portfolio?
-This WIP portfolio is just a place for me to showcase my experiments with Unity, Unreal and Blender. The portfolio, is very much a WIP and will be updated regularly!
+This WIP portfolio is a place for me to showcase my experiments with Unity, Unreal and Blender. The portfolio, is very much a WIP and will be updated regularly!
 
 
 ## Unity Engine Experiments
 
 ### Building my own collision detection system. 
+
+Over the years one of the issues I have had with 
 
 
 Pre-built engines are great for 3D games, there inbuilt physics systems are often well optimized for player & enemy behaviour. However, for 2D games, fewer engines ofter the expected control and player behaviour becomes unpredictable. The Unity physics system, for example, is designed to replicate real world physics, which is not what you want for, say, a 2D platformer. Another issue this creates for 2D games is ‘float-y’ in-game gravity.
