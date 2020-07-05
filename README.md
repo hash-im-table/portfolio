@@ -1,6 +1,13 @@
 # The Purpose of this Portfolio
 This (under-construction) portfolio is a place for me to showcase my Game Development experiments in Unity, Unreal and Blender. The portfolio, is very much a WIP and will be updated regularly!
 
+<div id="toc"></div>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#toc').toc();
+});
+</script>
+
 ## Table of contents
 <!--ts-->
   * [Unity Experiments](#unity-experiments)
