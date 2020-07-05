@@ -6,7 +6,7 @@ Contents |
 Collision detection system |
 Enemy Platform Tracing | 
 Top-Down Collision Detection |
-Enemy Patrolling Behaviour |
+Complex Enemy Behaviour |
 Project Tracker |
 
 
@@ -141,7 +141,7 @@ To work around this I have been experimenting with building me own collision det
     }
 ```
 
-## Enemy Platform Tracing
+### Enemy Platform Tracing
 
 I began tinkering with the above code to see other use cases for it. By using the code above to determine the bounds of a rectangular platform, I can essentially map a patrolling enemy around its extremities without the need to constantly set and re-set multiple waypoints. Here is what that looked like: 
 
@@ -151,7 +151,7 @@ Thats whats going on under the hood. If you overlay it with some fancy assets an
 
 ![showcase](https://user-images.githubusercontent.com/66776230/84427828-72e71f80-ac1d-11ea-819b-480c2453a050.gif)
 
-## Top-Down Collision Detection
+### Top-Down Collision Detection
 
 I also wanted to try and repurpose my code again for a top-down game, again leveraging the collision detection system I built earlier. 
 
@@ -161,7 +161,7 @@ Below is what that looks like!
 
 (Ignore the pink colour palate, I was trying to impress my little cousin. It didn’t work…)
 
-## Enemy Patrolling Behaviour
+## Complex Enemy Behaviour
 
 I have also started looking into enemy behaviour: 
 
