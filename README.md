@@ -12,8 +12,8 @@ Table of contents
     * [Top-Down Collision Detection](#Top-Down-Collision-Detection)
       * [Explaining the A* Algorithm](#Explaining-the-Algorithm-Breakdown)
     * [Complex Enemy Behaviour](#Complex-Enemy-Behaviour)
-  * [Project Tracker](#Project-Tracker)
   * [Blender](#Blender)
+  * [Project Tracker](#Project-Tracker)
 <!--te-->
 
 # Unity Experiments
