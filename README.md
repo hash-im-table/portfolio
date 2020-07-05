@@ -15,8 +15,8 @@ Table of contents
    * [Project Tracker](#Project-Tracker)
 <!--te-->
 
-## Unity Experiments
-### Building my own collision detection system. 
+# Unity Experiments
+## Building my own collision detection system. 
 
 The Unity engine is great for 3D games, the inbuilt Rigidbody physics system is well optimized for 3D player & enemy behaviour. However, for 2D games, the RigidBody2D system creates more sporatic and unpredicatable behaviour when interatcting with other physics gameobjects. The 2D Unity physics system is designed to replicate real world physics, which is not what you want for a 2D game. Another issue with the RigidBody2D system as a means of collision detection and movement, is that it creates this ‘float-y’ in-game gravity which for most games is an undesired feel.
 
@@ -26,7 +26,7 @@ To work around this I have been experimenting with building me own collision det
 <img src="https://user-images.githubusercontent.com/66776230/84371494-a308d100-abd1-11ea-8479-d00a94a477e9.gif" width="500" height="500"/>
 </p>
     
-#### AABB Code
+### AABB Code
     
 ```c#
     public LayerMask collisionMask;
@@ -149,7 +149,7 @@ To work around this I have been experimenting with building me own collision det
     }
 ```
 
-### Enemy Platform Tracing
+## Enemy Platform Tracing
 
 I began tinkering with the above code to see other use cases for it. By using the code above to determine the bounds of a rectangular platform, I can essentially map a patrolling enemy around its extremities without the need to constantly set and re-set multiple waypoints. Here is what that looked like: 
 
@@ -159,7 +159,7 @@ Thats whats going on under the hood. If you overlay it with some fancy assets an
 
 ![showcase](https://user-images.githubusercontent.com/66776230/84427828-72e71f80-ac1d-11ea-819b-480c2453a050.gif)
 
-### Top-Down Collision Detection
+## Top-Down Collision Detection
 
 I also wanted to try and repurpose my code again for a top-down game, again leveraging the collision detection system I built earlier. 
 
