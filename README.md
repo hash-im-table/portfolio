@@ -144,6 +144,7 @@ To work around this I have been experimenting with building me own collision det
 </details>
 
 
+
 ## Enemy Platform Tracing
 
 I began tinkering with the above code to see other use cases for it. By using the code above to determine the bounds of a rectangular platform, I can essentially map a patrolling enemy around its extremities without the need to constantly set and re-set multiple waypoints. Here is what that looked like: 
