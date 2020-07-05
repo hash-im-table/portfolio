@@ -26,7 +26,6 @@ To work around this I have been experimenting with building me own collision det
 </p>
 
     {::options parse_block_html="true" /}
-
     <details><summary markdown="span">Let's see some code!</summary>
     
     ```c#
@@ -150,7 +149,6 @@ To work around this I have been experimenting with building me own collision det
     }
     ```
     </details>
-
     {::options parse_block_html="false" /}
 
 ### Enemy Platform Tracing
