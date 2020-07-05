@@ -14,11 +14,8 @@ Table of contents
     * [Complex Enemy Behaviour](#Complex-Enemy-Behaviour)
   * [Blender](#Blender)
   * [Project Tracker](#Project-Tracker)
-   {:toc} 
   
 <!--te-->
-
- {:toc} 
 
 # Unity Experiments
 ## Building my own collision detection system. 
