@@ -25,6 +25,7 @@ To work around this I have been experimenting with building me own collision det
 <p align="center">
 <img src="https://user-images.githubusercontent.com/66776230/84371494-a308d100-abd1-11ea-8479-d00a94a477e9.gif" width="500" height="500"/>
 </p>
+
     
 ### AABB Code
     
@@ -153,11 +154,15 @@ To work around this I have been experimenting with building me own collision det
 
 I began tinkering with the above code to see other use cases for it. By using the code above to determine the bounds of a rectangular platform, I can essentially map a patrolling enemy around its extremities without the need to constantly set and re-set multiple waypoints. Here is what that looked like: 
 
+<p align="center">
 ![PatorllingEnemy](https://user-images.githubusercontent.com/66776230/84375124-faf60680-abd6-11ea-9a83-a6e3c67beefe.gif)
+</p>
 
 Thats whats going on under the hood. If you overlay it with some fancy assets and tinker with the speed variable, this is what it would look like:
 
+<p align="center">
 ![showcase](https://user-images.githubusercontent.com/66776230/84427828-72e71f80-ac1d-11ea-819b-480c2453a050.gif)
+</p>
 
 ## Top-Down Collision Detection
 
@@ -176,7 +181,9 @@ I have also started looking into enemy behaviour:
 
 The green pizza like slice represents what Bowser can see. Anything in that segment will alert Bowser. The radius and angle of the slice is are variable values. 
 
+<p align="center">
 ![Bowser](https://user-images.githubusercontent.com/66776230/84420013-55ac5400-ac11-11ea-8a55-a651874af659.gif)
+</p>
 
 # Project Tracker
 - [x]  Building my own collision detection system. 
