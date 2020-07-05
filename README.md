@@ -10,7 +10,7 @@ Table of contents
       * [AABB Code](#AABB-Code)
     * [Enemy Platform Tracing](#Enemy-Platform-Tracing)
     * [Top-Down Collision Detection](#Top-Down-Collision-Detection)
-      * [A* Algorithm](#The-Algorithm-Breakdown)
+      * [Explaining the A* Algorithm](#Explaining-the-Algorithm-Breakdown)
     * [Complex Enemy Behaviour](#Complex-Enemy-Behaviour)
   * [Project Tracker](#Project-Tracker)
   * [Blender](#Blender)
@@ -185,7 +185,7 @@ Below is what that looks like!
 <img src="https://user-images.githubusercontent.com/66776230/84375535-9d15ee80-abd7-11ea-9298-6ddc3e77166f.gif" width="500" height="500"/>
 </p> *(Ignore the pink colour palate, I was trying to impress my little cousin. It didn’t work…)*
 
-###  The Algorithm Breakdown
+###  Explaining the Algorithm Breakdown
 WIP
 
 ## Complex Enemy Behaviour
