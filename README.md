@@ -155,13 +155,13 @@ To work around this I have been experimenting with building me own collision det
 I began tinkering with the above code to see other use cases for it. By using the code above to determine the bounds of a rectangular platform, I can essentially map a patrolling enemy around its extremities without the need to constantly set and re-set multiple waypoints. Here is what that looked like: 
 
 <p align="center">
-![PatorllingEnemy](https://user-images.githubusercontent.com/66776230/84375124-faf60680-abd6-11ea-9a83-a6e3c67beefe.gif)
+<img src="https://user-images.githubusercontent.com/66776230/84375124-faf60680-abd6-11ea-9a83-a6e3c67beefe.gif"/>
 </p>
 
 Thats whats going on under the hood. If you overlay it with some fancy assets and tinker with the speed variable, this is what it would look like:
 
 <p align="center">
-![showcase](https://user-images.githubusercontent.com/66776230/84427828-72e71f80-ac1d-11ea-819b-480c2453a050.gif)
+<img src="https://user-images.githubusercontent.com/66776230/84427828-72e71f80-ac1d-11ea-819b-480c2453a050.gif"/>
 </p>
 
 ## Top-Down Collision Detection
@@ -172,8 +172,7 @@ Below is what that looks like!
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/66776230/84375535-9d15ee80-abd7-11ea-9298-6ddc3e77166f.gif" width="500" height="500"/>
-</p>
-*(Ignore the pink colour palate, I was trying to impress my little cousin. It didn’t work…)*
+</p> *(Ignore the pink colour palate, I was trying to impress my little cousin. It didn’t work…)*
 
 ## Complex Enemy Behaviour
 
