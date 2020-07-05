@@ -7,7 +7,7 @@ Table of contents
 
 <!--ts-->
    * [Installation](#installation)
-   * [Unity](#unity)
+   * [Unity](#unityExperiments)
       * [My Unity Experiments](#myunityexperiments)
 <!--te-->
 
@@ -16,9 +16,7 @@ Installation
 ============
 
 
-## Unity
-
-## My Unity Experiments
+## Unity Experiments
 
 
 ### Building my own collision detection system. 
