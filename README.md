@@ -1,12 +1,14 @@
 # What is this portfolio?
 This WIP portfolio is a place for me to showcase my Game Development experiments in Unity, Unreal and Blender. The portfolio, is very much a WIP and will be updated regularly!
 
+####  Table of Content
+
 
 ## My Unity Experiments
 
 ### Building my own collision detection system. 
 
-The Unity engine is great for 3D games, the inbuilt Rigidbody physics system is well optimized for 3D player & enemy behaviour. However, for 2D games, the RigidBody2D system creates more sporatic and unpredicatable behaviour. The Unity physics system is designed to replicate real world physics, which is not what you want for, say, a 2D platformer. Another issue that I have had to constantly fight against when using the RigidBody2D is the is the ‘float-y’ in-game gravity.
+The Unity engine is great for 3D games, the inbuilt Rigidbody physics system is well optimized for 3D player & enemy behaviour. However, for 2D games, the RigidBody2D system creates more sporatic and unpredicatable behaviour. The Unity physics system is designed to replicate real world physics, which is not what you want for a 2D game. Another issue with the RigidBody2D system as a means of collision detection and movement, is that it creates this ‘float-y’ in-game gravity which for most games is an undesired feel.
 
 To work around this I have been experimenting with building me own collision detection and raycasting system. Below is an example of my implementation:
 
@@ -76,12 +78,7 @@ Here is the code:
             }
         }
     }
- 
-    void ClimbSlope(ref Vector3 velocity, float slopeAngle)
-    {
-        // Note: // treat vel.x as total distance up slope. Use bottom most ray to determine slope angle
-    }
-   
+    
     void VerticalCollisions(ref Vector3 velocity) {
         float directionY = Mathf.Sign (velocity.y);
         float rayLength = Mathf.Abs (velocity.y) + skinWidth;
