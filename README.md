@@ -8,7 +8,7 @@ Table of contents
 <!--ts-->
    * [Unity](#unity-experiments)
       * [Building my own collision detection system](#Building-my-own-collision-detection-system)
-    + [AABB Code](#AABB-Code)
+      + [AABB Code](#AABB-Code)
       * [Enemy Platform Tracing](#Enemy-Platform-Tracing)
       * [Top-Down Collision Detection](#Top-Down-Collision-Detection)
       * [Complex Enemy Behaviour](#Complex-Enemy-Behaviour)
