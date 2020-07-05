@@ -5,7 +5,7 @@ Table of contents
 =================
 
 <!--ts-->
-  * [Unity](#unity-experiments)
+  * [Unity Experiments](#unity-experiments)
     * [Building my own collision detection system](#Building-my-own-collision-detection-system)
       * [AABB Code](#AABB-Code)
     * [Enemy Platform Tracing](#Enemy-Platform-Tracing)
