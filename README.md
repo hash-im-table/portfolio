@@ -16,7 +16,9 @@ To work around this I have been experimenting with building me own collision det
 
 ![CollisionDetectionTest](https://user-images.githubusercontent.com/66776230/84371494-a308d100-abd1-11ea-8479-d00a94a477e9.gif)
 
-Here is the code:
+# Here is the code:
+<details>
+  <summary>Click to expand!</summary>
 ```c#
     public LayerMask collisionMask;
  
@@ -137,6 +139,11 @@ Here is the code:
         }
     }
 ```
+</details>
+
+
+
+
 
 ## Enemy Platform Tracing
 
