@@ -150,7 +150,6 @@ To work around this I have been experimenting with building me own collision det
     }
     ```
     </details>
-    <br/>
 
     {::options parse_block_html="false" /}
 
