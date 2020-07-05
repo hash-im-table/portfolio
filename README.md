@@ -1,15 +1,12 @@
 # What is this portfolio?
-This WIP portfolio is a place for me to showcase my experiments with Unity, Unreal and Blender. The portfolio, is very much a WIP and will be updated regularly!
+This WIP portfolio is a place for me to showcase my Game Development experiments in Unity, Unreal and Blender. The portfolio, is very much a WIP and will be updated regularly!
 
 
-## Unity Engine Experiments
+## My Unity Experiments
 
 ### Building my own collision detection system. 
 
-Over the years one of the issues I have had with 
-
-
-Pre-built engines are great for 3D games, there inbuilt physics systems are often well optimized for player & enemy behaviour. However, for 2D games, fewer engines ofter the expected control and player behaviour becomes unpredictable. The Unity physics system, for example, is designed to replicate real world physics, which is not what you want for, say, a 2D platformer. Another issue this creates for 2D games is ‘float-y’ in-game gravity.
+The Unity engine is great for 3D games, the inbuilt Rigidbody physics system is well optimized for 3D player & enemy behaviour. However, for 2D games, the RigidBody2D system creates more sporatic and unpredicatable behaviour. The Unity physics system is designed to replicate real world physics, which is not what you want for, say, a 2D platformer. Another issue that I have had to constantly fight against when using the RigidBody2D is the is the ‘float-y’ in-game gravity.
 
 To work around this I have been experimenting with building me own collision detection and raycasting system. Below is an example of my implementation:
 
@@ -17,7 +14,7 @@ To work around this I have been experimenting with building me own collision det
 ![CollisionDetectionTest](https://user-images.githubusercontent.com/66776230/84371494-a308d100-abd1-11ea-8479-d00a94a477e9.gif)
 
 Here is the code:
-
+```c#
     public LayerMask collisionMask;
  
     const float skinWidth = .015f;
@@ -141,6 +138,7 @@ Here is the code:
             left = right = false;
         }
     }
+```
 
 ## Enemy Platform Tracing
 
