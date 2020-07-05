@@ -138,8 +138,7 @@ To work around this I have been experimenting with building me own collision det
             left = right = false;
         }
     }
-```
-</details>
+```</details>
 
 
 
