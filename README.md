@@ -22,7 +22,7 @@ To work around this I have been experimenting with building me own collision det
 <summary> Click to Expand </summary>
 <p>
     
-    ```c#
+```c#
     public LayerMask collisionMask;
  
     const float skinWidth = .015f;
