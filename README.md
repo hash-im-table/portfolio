@@ -179,7 +179,7 @@ Below is what that looks like!
 <img src="https://user-images.githubusercontent.com/66776230/84375535-9d15ee80-abd7-11ea-9298-6ddc3e77166f.gif" width="500" height="500"/>
 </p> *(Ignore the pink colour palate, I was trying to impress my little cousin. It didn’t work…)*
 
-##  The Algorithm Breakdown
+###  The Algorithm Breakdown
 WIP
 
 ## Complex Enemy Behaviour
