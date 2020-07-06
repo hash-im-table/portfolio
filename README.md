@@ -4,7 +4,7 @@ This (under-construction) portfolio is a place for me to showcase my Game Develo
 - [The Purpose of this Portfolio](#the-purpose-of-this-portfolio)
   * [Unity Experiments](#unity-experiments)
     + [Building my own collision detection system.](#building-my-own-collision-detection-system)
-    + [AABB Code](#aabb-code)
+      - [AABB Code](#aabb-code)
     + [Enemy Platform Tracing](#enemy-platform-tracing)
     + [Top-Down Collision Detection](#top-down-collision-detection)
       - [Explaining the Algorithm Breakdown](#explaining-the-algorithm-breakdown)
@@ -31,7 +31,7 @@ To work around this I have been experimenting with building me own collision det
 </p>
 
     
-### AABB Code
+#### AABB Code
 >“Talk is cheap. Show me the code.”
 >
 > *― Linus Torvalds* 
