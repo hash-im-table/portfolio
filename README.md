@@ -9,7 +9,7 @@ This (under-construction) portfolio is a place for me to showcase my Game Develo
     + [Top-Down Collision Detection](#top-down-collision-detection)
       - [Explaining the Algorithm Breakdown](#explaining-the-algorithm-breakdown)
     + [Complex Enemy Behaviour](#complex-enemy-behaviour)
-  * [Blender](#blender)
+  * [Blender-Experiments](#blender-experiments)
   * [Project Tracker](#project-tracker)
 
 
@@ -195,7 +195,7 @@ The green pizza like slice represents what Bowser can see. Anything in that segm
 <img src="https://user-images.githubusercontent.com/66776230/84420013-55ac5400-ac11-11ea-8a55-a651874af659.gif"/>
 </p>
 
-## Blender
+## Blender Experiments
 WIP
 
 ## Project Tracker
