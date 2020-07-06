@@ -35,7 +35,10 @@ To work around this I have been experimenting with building me own collision det
 >“Talk is cheap. Show me the code.”
 >
 > *― Linus Torvalds* 
-    
+
+<details>
+<summary>Click to expand</summary>
+
 ```c#
     public LayerMask collisionMask;
  
@@ -156,6 +159,7 @@ To work around this I have been experimenting with building me own collision det
         }
     }
 ```
+</details>
 
 ### Enemy Platform Tracing
 
