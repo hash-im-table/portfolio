@@ -32,9 +32,6 @@ To work around this I have been experimenting with building me own collision det
 
     
 #### AABB Code
->“Talk is cheap. Show me the code.”
->
-> *― Linus Torvalds* 
 
 ```c#
     public LayerMask collisionMask;
