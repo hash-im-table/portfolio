@@ -4,7 +4,7 @@ This (under-construction) portfolio is a place for me to showcase my Web & Game 
 - [The Purpose of this Portfolio](#the-purpose-of-this-portfolio)
   * [Unity Experiments](#unity-experiments)
     + [Building my own collision detection system.](#building-my-own-collision-detection-system)
-      - [AABB Code](#aabb-code)
+      - [The Code](#aabb-code)
     + [Enemy Platform Tracing](#enemy-platform-tracing)
     + [Top-Down Collision Detection](#top-down-collision-detection)
       - [Explaining the Algorithm Breakdown](#explaining-the-algorithm-breakdown)
