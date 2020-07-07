@@ -36,21 +36,6 @@ To work around this I have been experimenting with building me own collision det
 #### AABB Code
 
 ```c#
-    public LayerMask collisionMask;
- 
-    const float skinWidth = .015f;
-    public int horizontalRayCount = 4;
-    public int verticalRayCount = 4;
- 
-    float horizontalRaySpacing;
-    float verticalRaySpacing;
- 
-    BoxCollider2D collider;
-    RaycastOrigins raycastOrigins;
-    public CollisionInfo collisions;
- 
-    private float maxSlopeAngle = 80f;
- 
     void Start() {
         collider = GetComponent<BoxCollider2D> ();
         CalculateRaySpacing ();
