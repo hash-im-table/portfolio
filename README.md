@@ -197,15 +197,15 @@ WIP
 #### The Code
 
 ```csharp
-        if (Time.time > nextSpawnTime) {
-            float secondsBetweenSpawns = Mathf.Lerp (secondsBetweenSpawnsMinMax.y, secondsBetweenSpawnsMinMax.x, Difficulty.GetDifficultyPercent ());
-            nextSpawnTime = Time.time + secondsBetweenSpawns;
+if (Time.time > nextSpawnTime) {
+    float secondsBetweenSpawns = Mathf.Lerp (secondsBetweenSpawnsMinMax.y, secondsBetweenSpawnsMinMax.x, Difficulty.GetDifficultyPercent ());
+    nextSpawnTime = Time.time + secondsBetweenSpawns;
 
-            float spawnAngle = Random.Range (-spawnAngleMax, spawnAngleMax);
-            float spawnSize = Random.Range (spawnSizeMinMax.x, spawnSizeMinMax.y);
-            Vector2 spawnPosition = new Vector2 (Random.Range (-screenHalfSizeWorldUnits.x, screenHalfSizeWorldUnits.x), screenHalfSizeWorldUnits.y + spawnSize);
-            GameObject newBlock = (GameObject)Instantiate (fallingBlockPrefab, spawnPosition, Quaternion.Euler(Vector3.forward * spawnAngle));
-            newBlock.transform.localScale = Vector2.one * spawnSize;
+    float spawnAngle = Random.Range (-spawnAngleMax, spawnAngleMax);
+    float spawnSize = Random.Range (spawnSizeMinMax.x, spawnSizeMinMax.y);
+    Vector2 spawnPosition = new Vector2 (Random.Range (-screenHalfSizeWorldUnits.x, screenHalfSizeWorldUnits.x), screenHalfSizeWorldUnits.y + spawnSize);
+    GameObject newBlock = (GameObject)Instantiate (fallingBlockPrefab, spawnPosition, Quaternion.Euler(Vector3.forward * spawnAngle));
+    newBlock.transform.localScale = Vector2.one * spawnSize;
     }
 ```
 
