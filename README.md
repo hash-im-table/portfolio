@@ -8,7 +8,7 @@ This (under-construction) portfolio is a place for me to showcase my Web & Game 
     + [Enemy Platform Tracing](#enemy-platform-tracing)
     + [Top-Down Collision Detection](#top-down-collision-detection)
       - [Explaining the Algorithm Breakdown](#explaining-the-algorithm-breakdown)
-    + Building a quick proof of concept(#Building-a-quick-proof-of-concept)
+    + [Building a quick proof of concept](#building-a-quick-proof-of-concept)
     + [Complex Enemy Behaviour](#complex-enemy-behaviour)
   * [Blender-Experiments](#blender-experiments)
   * [Project Tracker](#project-tracker)
