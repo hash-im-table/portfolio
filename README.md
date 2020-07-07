@@ -11,7 +11,7 @@ This (under-construction) portfolio is a place for me to showcase my Web & Game 
     + [Building a quick proof of concept](#building-a-quick-proof-of-concept)
       - [The Code](#the-code)
     + [Complex Enemy Behaviour](#complex-enemy-behaviour)
-  * [Blender-Experiments](#blender-experiments)
+  * [Blender Experiments](#blender-experiments)
   * [Project Tracker](#project-tracker)
 
 
