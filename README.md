@@ -182,6 +182,16 @@ Below is what that looks like!
 ####  Explaining the Algorithm Breakdown
 WIP
 
+### Building a quick proof of concept
+
+* Falling obstacles are dynamically generated based on player screen diementions 
+* Player screen wrapping is also dynamically calculated based on device the game is being played on
+* Block angle, scale and speed are all randomly calculated variables that increase to a max difficulty over time. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/66776230/86813777-7cc33d80-c078-11ea-86e1-fb8556055dbd.gif" width="500" height="500"/>
+</p> 
+
 ### Complex Enemy Behaviour
 
 I have also started looking into enemy behaviour: 
