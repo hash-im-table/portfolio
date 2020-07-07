@@ -224,5 +224,5 @@ WIP
 
 ## Project Tracker
 - [x] Building my own collision detection system. 
-- [ ] Build a few Blender models
+- [ ] Showcase a few Blender models
 - [ ] A* pathfinding Alogorithm breakdown
