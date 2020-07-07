@@ -197,8 +197,6 @@ WIP
 #### The Code
 
 ```csharp
-    void Update () {
-
         if (Time.time > nextSpawnTime) {
             float secondsBetweenSpawns = Mathf.Lerp (secondsBetweenSpawnsMinMax.y, secondsBetweenSpawnsMinMax.x, Difficulty.GetDifficultyPercent ());
             nextSpawnTime = Time.time + secondsBetweenSpawns;
@@ -208,7 +206,6 @@ WIP
             Vector2 spawnPosition = new Vector2 (Random.Range (-screenHalfSizeWorldUnits.x, screenHalfSizeWorldUnits.x), screenHalfSizeWorldUnits.y + spawnSize);
             GameObject newBlock = (GameObject)Instantiate (fallingBlockPrefab, spawnPosition, Quaternion.Euler(Vector3.forward * spawnAngle));
             newBlock.transform.localScale = Vector2.one * spawnSize;
-        }
     }
 ```
 
