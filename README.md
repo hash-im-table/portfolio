@@ -9,6 +9,7 @@ This (under-construction) portfolio is a place for me to showcase my Web & Game 
     + [Top-Down Collision Detection](#top-down-collision-detection)
       - [Explaining the Algorithm Breakdown](#explaining-the-algorithm-breakdown)
     + [Building a quick proof of concept](#building-a-quick-proof-of-concept)
+      - [The Code](#the-code)
     + [Complex Enemy Behaviour](#complex-enemy-behaviour)
   * [Blender-Experiments](#blender-experiments)
   * [Project Tracker](#project-tracker)
@@ -192,6 +193,24 @@ WIP
 <p align="center">
 <img src="https://user-images.githubusercontent.com/66776230/86813777-7cc33d80-c078-11ea-86e1-fb8556055dbd.gif"/>
 </p> 
+
+#### The Code
+
+```csharp
+    void Update () {
+
+        if (Time.time > nextSpawnTime) {
+            float secondsBetweenSpawns = Mathf.Lerp (secondsBetweenSpawnsMinMax.y, secondsBetweenSpawnsMinMax.x, Difficulty.GetDifficultyPercent ());
+            nextSpawnTime = Time.time + secondsBetweenSpawns;
+
+            float spawnAngle = Random.Range (-spawnAngleMax, spawnAngleMax);
+            float spawnSize = Random.Range (spawnSizeMinMax.x, spawnSizeMinMax.y);
+            Vector2 spawnPosition = new Vector2 (Random.Range (-screenHalfSizeWorldUnits.x, screenHalfSizeWorldUnits.x), screenHalfSizeWorldUnits.y + spawnSize);
+            GameObject newBlock = (GameObject)Instantiate (fallingBlockPrefab, spawnPosition, Quaternion.Euler(Vector3.forward * spawnAngle));
+            newBlock.transform.localScale = Vector2.one * spawnSize;
+        }
+    }
+```
 
 ### Complex Enemy Behaviour
 
