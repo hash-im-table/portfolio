@@ -191,7 +191,7 @@ WIP
 * Block angle, scale and speed are all randomly calculated variables that increase to a max difficulty over time. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/66776230/86813777-7cc33d80-c078-11ea-86e1-fb8556055dbd.gif"/>
+<img src="https://user-images.githubusercontent.com/66776230/86813777-7cc33d80-c078-11ea-86e1-fb8556055dbd.gif"width="300" height="400"/>
 </p> 
 
 #### The Code
