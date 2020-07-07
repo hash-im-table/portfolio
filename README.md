@@ -8,6 +8,7 @@ This (under-construction) portfolio is a place for me to showcase my Web & Game 
     + [Enemy Platform Tracing](#enemy-platform-tracing)
     + [Top-Down Collision Detection](#top-down-collision-detection)
       - [Explaining the Algorithm Breakdown](#explaining-the-algorithm-breakdown)
+    + Building a quick proof of concept(#Building-a-quick-proof-of-concept)
     + [Complex Enemy Behaviour](#complex-enemy-behaviour)
   * [Blender-Experiments](#blender-experiments)
   * [Project Tracker](#project-tracker)
@@ -189,7 +190,7 @@ WIP
 * Block angle, scale and speed are all randomly calculated variables that increase to a max difficulty over time. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/66776230/86813777-7cc33d80-c078-11ea-86e1-fb8556055dbd.gif" width="500" height="500"/>
+<img src="https://user-images.githubusercontent.com/66776230/86813777-7cc33d80-c078-11ea-86e1-fb8556055dbd.gif"/>
 </p> 
 
 ### Complex Enemy Behaviour
