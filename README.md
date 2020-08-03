@@ -11,6 +11,7 @@ This (under-construction) portfolio is a place for me to showcase my Web & Game 
     + [Building a quick proof of concept](#building-a-quick-proof-of-concept)
       - [The Code](#the-code)
     + [Building a 3D PlayerController](#building-a-playercontroller)
+      - [PlayerController Code](#playercontroller-code)
     + [Complex Enemy Behaviour](#complex-enemy-behaviour)
   * [Blender Experiments](#blender-experiments)
   * [Project Tracker](#project-tracker)
@@ -196,6 +197,44 @@ if (Time.time > nextSpawnTime) {
 ```
 
 ### Building a PlayerController)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/66776230/89227364-72dc1e00-d5d5-11ea-81aa-ccf9718e3803.gif"/>
+</p>
+
+#### PlayerController Code
+```c# 
+[RequireComponent (typeof (PlayerController))]
+public class Player : MonoBehaviour {
+
+	public float moveSpeed = 5;
+
+	Camera viewCamera;
+	PlayerController controller;
+	
+	void Start () {
+		controller = GetComponent<PlayerController> ();
+		viewCamera = Camera.main;
+	}
+
+	void Update () {
+		Vector3 moveInput = new Vector3 (Input.GetAxisRaw ("Horizontal"), 0, Input.GetAxisRaw ("Vertical"));
+		Vector3 moveVelocity = moveInput.normalized * moveSpeed;
+		controller.Move (moveVelocity);
+
+		Ray ray = viewCamera.ScreenPointToRay (Input.mousePosition);
+		Plane groundPlane = new Plane (Vector3.up, Vector3.zero);
+		float rayDistance;
+
+		if (groundPlane.Raycast(ray,out rayDistance)) {
+			Vector3 point = ray.GetPoint(rayDistance);
+			Debug.DrawLine(ray.origin,point,Color.red);
+			//Debug.DrawRay(ray.origin,ray.direction * 100,Color.red);
+			controller.LookAt(point);
+		}
+	}
+}
+```
 
 ### Complex Enemy Behaviour
 
