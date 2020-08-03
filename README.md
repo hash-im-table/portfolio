@@ -196,7 +196,7 @@ if (Time.time > nextSpawnTime) {
     }
 ```
 
-### Building a PlayerController)
+### Building a PlayerController
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/66776230/89227364-72dc1e00-d5d5-11ea-81aa-ccf9718e3803.gif"/>
