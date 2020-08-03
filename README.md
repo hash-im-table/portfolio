@@ -10,6 +10,7 @@ This (under-construction) portfolio is a place for me to showcase my Web & Game 
       - [Explaining the Algorithm Breakdown](#explaining-the-algorithm-breakdown)
     + [Building a quick proof of concept](#building-a-quick-proof-of-concept)
       - [The Code](#the-code)
+    + [Building a 3D PlayerController](#building-a-playercontroller)
     + [Complex Enemy Behaviour](#complex-enemy-behaviour)
   * [Blender Experiments](#blender-experiments)
   * [Project Tracker](#project-tracker)
@@ -193,6 +194,8 @@ if (Time.time > nextSpawnTime) {
     newBlock.transform.localScale = Vector2.one * spawnSize;
     }
 ```
+
+### Building a PlayerController)
 
 ### Complex Enemy Behaviour
 
