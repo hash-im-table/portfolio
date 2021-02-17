@@ -13,6 +13,7 @@ This (under-construction) portfolio is a place for me to showcase my Web & Game 
     + [Building a 3D PlayerController](#building-a-playercontroller)
       - [PlayerController Code](#playercontroller-code)
     + [Complex Enemy Behaviour](#complex-enemy-behaviour)
+  * [Mathematics of a Platformer Game](#athematics-of-a-Platformer-Game])
   * [Blender Experiments](#blender-experiments)
   * [Project Tracker](#project-tracker)
 
@@ -245,6 +246,12 @@ The green pizza like slice represents what Bowser can see. Anything in that segm
 <p align="center">
 <img src="https://user-images.githubusercontent.com/66776230/84420013-55ac5400-ac11-11ea-8a55-a651874af659.gif"/>
 </p>
+
+## Mathematics of a Platformer Game
+
+Implementing climbing slope functionality using triginometry
+
+
 
 ## Blender Experiments
 WIP
