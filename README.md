@@ -19,7 +19,7 @@ This (under-construction) portfolio is a place for me to showcase my Web & Game 
   * [Project Tracker](#project-tracker)
 
 
-## Unity Experiments 
+## Game Development Experiments 
 ### Building my own collision detection system. 
 
 The Unity engine is great for 3D games, the inbuilt Rigidbody physics system is well optimized for 3D player & enemy behaviour. However, for 2D games, the RigidBody2D system creates more sporadic and unpredictable behaviour when interacting with other physics gameobjects. The 2D Unity physics system is designed to replicate real world physics, which is not what you want for a 2D game. 
