@@ -146,7 +146,17 @@ To work around this I have been experimenting with building me own collision det
 
 ### Mathematics of a Platformer Game
 
-Implementing climbing slope functionality using triginometry
+Implementing climbing slope functionality using triginometry. When using your own collision detection system, you must also then build a system to calculate climbing slopes. To do this we can leverage unit circle ratios and other trig functions. For example:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/66776230/108208375-e03e3f00-7120-11eb-893e-b43b0204dec0.gif"/>
+</p>
+
+Implemented, the results are as follows:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/66776230/108209268-01ebf600-7122-11eb-87fc-688173fcc5c8.gif"/>
+</p>
 
 
 ### Enemy Platform Tracing
