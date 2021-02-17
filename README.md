@@ -145,6 +145,11 @@ To work around this I have been experimenting with building me own collision det
     }
 ```
 
+### Mathematics of a Platformer Game
+
+Implementing climbing slope functionality using triginometry
+
+
 ### Enemy Platform Tracing
 
 I began tinkering with the above code to see other use cases for it. By using the code above to determine the bounds of a rectangular platform, I can essentially map a patrolling enemy around its extremities without the need to constantly set and re-set multiple waypoints. Here is what that looked like: 
@@ -247,11 +252,6 @@ The green pizza like slice represents what Bowser can see. Anything in that segm
 <p align="center">
 <img src="https://user-images.githubusercontent.com/66776230/84420013-55ac5400-ac11-11ea-8a55-a651874af659.gif"/>
 </p>
-
-### Mathematics of a Platformer Game
-
-Implementing climbing slope functionality using triginometry
-
 
 
 ## Blender Experiments
