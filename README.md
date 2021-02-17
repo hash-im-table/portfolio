@@ -5,6 +5,7 @@ This (under-construction) portfolio is a place for me to showcase my Web & Game 
   * [Unity Experiments](#unity-experiments)
     + [Building my own collision detection system.](#building-my-own-collision-detection-system)
       - [The Code](#aabb-code)
+    + [Mathematics of a Platformer Game](#Mathematics-of-a-Platformer-Game])
     + [Enemy Platform Tracing](#enemy-platform-tracing)
     + [Top-Down Collision Detection](#top-down-collision-detection)
       - [Explaining the Algorithm Breakdown](#explaining-the-algorithm-breakdown)
@@ -13,7 +14,7 @@ This (under-construction) portfolio is a place for me to showcase my Web & Game 
     + [Building a 3D PlayerController](#building-a-playercontroller)
       - [PlayerController Code](#playercontroller-code)
     + [Complex Enemy Behaviour](#complex-enemy-behaviour)
-  * [Mathematics of a Platformer Game](#athematics-of-a-Platformer-Game])
+
   * [Blender Experiments](#blender-experiments)
   * [Project Tracker](#project-tracker)
 
