@@ -5,6 +5,7 @@ This (under-construction) portfolio is a place for me to showcase my Web & Game 
     + [Building my own collision detection system.](#building-my-own-collision-detection-system)
       - [The Code](#aabb-code)
     + [Mathematics of a Platformer Game](#mathematics-of-a-platformer-game)
+    + [Building a Space First-Person-Shooter](#building-a-space-first-person-shooter)
     + [Enemy Platform Tracing](#enemy-platform-tracing)
     + [Top-Down Collision Detection](#top-down-collision-detection)
       - [Explaining the Algorithm Breakdown](#explaining-the-algorithm-breakdown)
@@ -158,6 +159,18 @@ Implemented, the results are as follows:
 <img src="https://user-images.githubusercontent.com/66776230/108209268-01ebf600-7122-11eb-87fc-688173fcc5c8.gif"/>
 </p>
 
+### Building a Space First-Person-Shooter
+
+<p align="center">
+<img src="https://https://user-images.githubusercontent.com/66776230/114310685-7f5d3280-9ae3-11eb-9327-ec53486eda2d.gif"/>
+</p>
+
+- [x] Implemented a weapon swap system
+- [x] Implemented zero-gravity movement
+- [x] Implemented aim-down sight
+- [x] Implemented weapon recoil
+- [x] Implemented lateral movement
+- [ ] Add boost effect 
 
 ### Enemy Platform Tracing
 
