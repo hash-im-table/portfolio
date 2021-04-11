@@ -1,5 +1,5 @@
 # The Purpose of this Portfolio
-This (under-construction) portfolio is a place for me to showcase my Web & Game Development experiments in `Unity`, `Unreal` and `Blender`. The portfolio, is very much a WIP and will be updated regularly!
+This (under-construction) portfolio is a place for me to showcase my Web & Game Development experiments. The portfolio, is very much a WIP and will be updated regularly!
 
   * [Game Development Experiments](#game-development-experiments)
     + [Building my own collision detection system.](#building-my-own-collision-detection-system)
@@ -21,9 +21,9 @@ This (under-construction) portfolio is a place for me to showcase my Web & Game 
 ## Game Development Experiments 
 ### Building my own collision detection system. 
 
-The Unity engine is great for 3D games, the inbuilt Rigidbody physics system is well optimized for 3D player & enemy behaviour. However, for 2D games, the RigidBody2D system creates more sporadic and unpredictable behaviour when interacting with other physics gameobjects. The 2D Unity physics system is designed to replicate real world physics, which is not what you want for a 2D game. 
+Existing Game engines are great for 3D games, their inbuilt Rigidbody physics system is well optimized for 3D behaviour. However, for 2D games, the RigidBody systems create more sporadic and unpredictable behaviour when interacting with other physics objects. 2D rigidbody systems are physics systems designed to replicate real world physics, which is not what you want for a 2D game. 
 
-Another issue with the RigidBody2D system as a means of collision detection and movement, is that it creates this ‘float-y’ in-game gravity which for most games is an undesired feel. This is an example of that float-y, imprecise movement moving the player via a RigidBody2D can create.
+Another issue with the RigidBody2D system as a means of collision detection and movement, is that it creates this ‘float-y’ in-game gravity which for most games is an undesired feel. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/66776230/86543782-87b38c00-bf19-11ea-8526-9ccf90760feb.gif" width="500" height="500"/>
