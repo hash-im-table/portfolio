@@ -165,6 +165,8 @@ Implemented, the results are as follows:
 <img src="https://https://user-images.githubusercontent.com/66776230/114310685-7f5d3280-9ae3-11eb-9327-ec53486eda2d.gif"/>
 </p>
 
+![ezgif-6-493f6d0fb4b1](https://user-images.githubusercontent.com/66776230/114310685-7f5d3280-9ae3-11eb-9327-ec53486eda2d.gif)
+
 - [x] Implemented a weapon swap system
 - [x] Implemented zero-gravity movement
 - [x] Implemented aim-down sight
